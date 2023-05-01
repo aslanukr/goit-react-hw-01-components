@@ -12,7 +12,7 @@ const OnlineIcon = styled.span`
 
 export const FriendListItem = ({ friend: { avatar, name, isOnline } }) => {
   return (
-    <li className={css.item}>
+    <>
       <OnlineIcon isOnline={isOnline}></OnlineIcon>
       <div className={css.friendWrapper}>
         <img
@@ -23,7 +23,7 @@ export const FriendListItem = ({ friend: { avatar, name, isOnline } }) => {
         />
         <p className={css.name}>{name}</p>
       </div>
-    </li>
+    </>
   );
 };
 
