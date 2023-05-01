@@ -2,6 +2,7 @@
   padding: 10px;
   text-align: center;
   font-size: 30px;
+  text-transform: capitalize;
 }
 
 tbody > tr:nth-child(even) {
