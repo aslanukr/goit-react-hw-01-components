@@ -1,0 +1,25 @@
+.statsList {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  padding: 30px 30px;
+  justify-content: space-between;
+  background-color: rgb(226, 226, 226);
+}
+
+.statsItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.statsLabel {
+  font-size: 20px;
+  color: grey;
+}
+
+.statsQuantity {
+  font-size: 30px;
+}
