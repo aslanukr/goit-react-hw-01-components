@@ -4,7 +4,9 @@ import css from './UserData.module.css';
 export const UserData = ({ name, tag, location, avatar }) => {
   return (
     <div className={css.user}>
-      <img src={avatar} alt="User avatar" className={css.avatar} />
+      <div className={css.avatarWrapper}>
+        <img src={avatar} alt="User avatar" className={css.avatar} />
+      </div>
       <p className={css.username}>{name}</p>
       <p className={css.info}>@{tag}</p>
       <p className={css.info}>{location}</p>
